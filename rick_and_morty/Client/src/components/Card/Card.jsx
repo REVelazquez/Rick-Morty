@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom';
 import Style from './Card.module.css'
-import { addFav, removeFav } from '../../redux/action';
+import { addFav, removeFav } from '../../redux/actions';
 import { connect } from 'react-redux';
 import { useState, useEffect } from 'react';
 
