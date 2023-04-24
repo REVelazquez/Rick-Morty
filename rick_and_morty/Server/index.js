@@ -18,6 +18,9 @@ server.use((req, res, next) => {
     );
     next();
  });
+//todo lo de arriba es para darle permiso al server para luego usar la ruta
+
+server.use('/rickandmorty', router);
 
 
 server.listen(PORT, ()=>{
