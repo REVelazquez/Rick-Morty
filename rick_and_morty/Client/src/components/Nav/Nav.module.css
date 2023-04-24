@@ -1,0 +1,100 @@
+
+.nav{
+    display: flex grid;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7959558823529411) 12%, rgba(0,22,255,1) 71%);
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    margin: inline 1em;
+    
+}
+
+.btn{
+    height: 2.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-radius: 5em;
+    background-color:aqua;
+    place-content: center;
+    size: fit-content;
+    width: 3em;
+    height: 3em;
+    text-indent: -9999px;
+}
+.btn:hover{
+    background-color: blue;
+    text-indent: 0;
+    width: fit-content;
+    size: fit-content;
+}
+
+
+.links{
+    font-size: medium;
+    font-weight: bolder;
+    font-style: normal;
+    color:black
+}
+.links:hover{
+    color: crimson;
+}
+
+.logOut{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-radius: 5em;
+    background-color:crimson;
+    font-style: oblique;
+    color:darkblue;
+    font-weight: bolder;
+    border-style: normal;
+    place-content: center;
+    size: fit-content;
+    width: 3em;
+    height: 3em;
+    text-indent: -9999px;
+}
+
+.logOut:hover{
+    background-color: black;
+    border-color: azure;
+    color:aqua;
+    text-indent: 0;
+    size:fit-content;
+    width: fit-content;
+
+}
+
+.animated{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: medium;
+    background-color: aqua;
+    color:opacity 0 black;
+    font-weight: bolder;
+    height: 2.5em;
+    width: 2.5em;
+    size: 5em 5em fit-content;
+    place-content: center;
+    border-radius: 5em;
+}
+
+.animated {
+    text-indent: -9999px;
+  }
+
+.animated:hover{
+    place-content: center;
+    color: black;
+    background-color: olivedrab;
+    border-radius: 3em;
+    width: fit-content;
+    size: fit-content;
+}
+
+.animated:hover {
+    text-indent: 0;
+  }

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    color: aqua;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.text{
+   
+    margin-top: .25em;
+    margin: 1em;
+    background: rgb(14,255,0);
+    background: linear-gradient(90deg, rgba(14,255,0,1) 24%, rgba(0,22,255,1) 63%);
+    border-radius: 2em;
+    width: 7em;
+    color: rgb(235, 17, 216);
+    text-shadow: 2px 2px 4px black;
+}
+
+.tittle{
+    color: white;
+    font-size: 2em;
+    margin: 1em;
+}
+
+.img{
+    margin-left: 10em;
+    size: 75%;
+}

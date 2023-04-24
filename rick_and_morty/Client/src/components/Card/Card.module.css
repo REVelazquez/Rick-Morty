@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-color: black;
+    border-style:groove;
+    border-radius: 15px;
+    width: 20em;
+    height: 37em;
+    background-image: url('/src/components/multimedia/portal\ gif.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: space-around;
+    scale: 0.85;
+
+}
+.img{
+    margin-top: 5px;
+    scale: 50%;
+    border-radius: 100em;
+}
+.data{
+    font-size: medium;
+    margin: 5px;
+    max-width: 50%;
+    max-height: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    color: crimson;
+    font-weight: bolder;
+    
+}
+.links{
+   
+    color:crimson;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.links:hover{
+    color:darkorange
+}
+
+.btn{
+    color: black;
+    background-color: aqua;
+    font-weight:bolder;
+    border-radius: 100%;
+    border-style: normal;
+    font-size: larger;
+    position:relative;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top:1em;
+}
+.btn:hover{
+    background-color: crimson;
+    border-color: blue;
+}
+.btn{
+    text-indent: -9999px;
+  }
+
+.favorites{
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-style:none ;
+    background-color: rgb(29, 61, 43);
+    content: normal;
+    font-size: xx-large;
+    margin-right:  82%;
+    border-radius: 100%;
+}
+.favorites:hover{
+    background-color:darkorchid;
+}

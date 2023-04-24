@@ -1,0 +1,80 @@
+.logIn{    
+    background-image:url('/src/components/multimedia/Welcome.gif');
+    width: 75%;
+    height: 100vh;
+    image-resolution: 100%;
+    margin-top: 12.5%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 12.5%;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email{
+    font-weight:bold;
+    font:200;
+    color:black;
+    font-size: 1.5em;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 50%;
+    justify-content: center;
+    align-self: flex-end;
+    position:relative;
+}
+.password{
+    font-weight:bolder;
+    font:200;
+    color:black;
+    font-size: 1.5em;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 50%;
+    justify-content:center;
+    align-self: flex-end;
+    position: center;
+}
+.inputs{
+    background-color: rgb(50, 46, 46);
+    color: beige;
+    border-radius: 15px;
+    margin-right:25%m;
+    
+}
+.danger{
+    color:red;
+    font-size: small;
+}
+
+.espacio{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+
+.btn{
+    border-radius: 2em;
+    margin-top: 3em;
+    justify-content: center;
+    position: relative;
+    color:greenyellow;
+    background-color: darkred;
+    border-style: double;
+    border-color: aqua;
+    font-size: medium;
+    font-weight: bolder;
+    size:fit-content;
+    height: 2em;
+    width: 5em;
+}
+
+.btn:hover{
+    color:darkred;
+    background-color: greenyellow;
+    border-color: black;
+    border-style: double;
+}

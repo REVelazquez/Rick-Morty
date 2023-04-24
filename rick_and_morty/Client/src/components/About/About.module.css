@@ -1,0 +1,21 @@
+
+.container{
+    background-image: url('/src/components/multimedia/About.png');
+    background-size: fit-content;
+    width: 50%;
+    justify-content: center;
+    margin-left:25%;
+    margin-right: 25%;;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tittle{
+    color: blue;
+    font-weight:bolder;
+    font-style: oblique;
+    font-stretch: expanded;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}

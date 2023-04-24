@@ -1,0 +1,17 @@
+.selectors{
+    margin: 1em;
+    background-color:pink;
+    font-size: medium;
+    border-radius: 2em;
+    font-weight: bolder;
+    border-color: chartreuse;
+    border-style: double;
+}
+
+.options{
+    background-color: darkorchid;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 1em;    
+}
+
