@@ -11,28 +11,28 @@ import axios from 'axios';
 
 // const URL_BASE='https://be-a-rym.up.railway.app/api/character/'
 // const API_KEY='acae4beaabe1.506e060bbebd630bb2b1'
-// const email= 'rvelazquez@gmail.com';
-// const password='pass123';
+const email= 'rvelazquez@gmail.com';
+const password='pass123';
 
 function App() {
-   
    const location= useLocation();
    const navigate= useNavigate();
    const [characters, setCharacters]=useState([]);
    const [access, setAccess]= useState(false);
    
-   useEffect (() => {!access && navigate('/');
-      },[access]);
-   
    const login = (userData) => {
       const { email, password } = userData;
-      const URL = 'http://localhost:3001/rickandmorty/login/';
-      axios(URL + `?email=${email}&password=${password}`).then(({ data }) => {
+      const URL = 'http://localhost:3001/rickandmorty/login';
+      axios(URL + `?email=${email}&password=${password}`)
+      .then(({ data }) => {
          const { access } = data;
-         setAccess(data);
+         setAccess(access);
          access && navigate('/home');
       });
    }
+   
+   useEffect (() => {!access && navigate('/');
+      },[access]);
    
 
    const onSearch = (id) => {
