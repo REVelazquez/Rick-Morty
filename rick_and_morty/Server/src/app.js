@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const router = require('./src/routes/index');
+const router = require('./routes/index');
 const morgan = require('morgan');
 
 

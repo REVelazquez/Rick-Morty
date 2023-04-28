@@ -31,7 +31,7 @@ const Nav= ({onSearch, setAccess})=>{
     return(
         <nav  className={style.nav}>
              <SearchBar onSearch={onSearch}/>
-             {/* esto va abajoid="miBoton" class="claseInicial" */}
+             {/* esto va abajo id="miBoton" class="claseInicial" */}
              <button  className={style.animated} onClick={handleClick} >
                  Click me 
             </button>  

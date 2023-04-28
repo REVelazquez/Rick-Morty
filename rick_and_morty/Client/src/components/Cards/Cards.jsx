@@ -5,7 +5,7 @@ const Cards=({ characters, onClose }) => {
    return (
       <div className={style.home}>
          {
-            characters.map(({ id, name, status, species, gender, image }) => {
+            characters.map(({ id, name, status, species, gender, origin, image }) => {
                return(
                   <Card
                      key={id}
@@ -14,6 +14,7 @@ const Cards=({ characters, onClose }) => {
                      status={status}
                      species={species}
                      gender={gender}
+                     origin= {origin}
                      image={image}
                      onClose={onClose}
                   />
